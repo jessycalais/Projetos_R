@@ -8,7 +8,7 @@ library(tidyverse)
 library(readxl)
 library(writexl)
 
-# Unificar planilhas
+# Unificar planilhas  
 arquivos = list.files('ss', pattern='.xlsx', full.names=TRUE)
 dados_unificados <- data.frame()
 
